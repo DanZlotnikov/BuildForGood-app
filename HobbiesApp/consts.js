@@ -1,0 +1,12 @@
+const consts = {
+  BUTTON_GREEN: '#6ED47C',
+  BUTTON_ORANGE: '#FFC700',
+  BOX_YELLOW: '#FFC700',
+  TEXT_ORANGE: '#F95A2C',
+  BOX_PEACH: '#FF743C',
+  BOX_DARK_GREY: '#2D3652',
+  BOX_PINK: '#D33367',
+  BOX_IMAGE_SIZE: 60
+}
+
+export default consts
