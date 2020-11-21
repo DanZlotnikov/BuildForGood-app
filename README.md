@@ -33,6 +33,8 @@ First of all, **clone** the repository.
 - Open **Android Studio** 
 - **Tools >> AVD Manager**
 - Under **Actions** click Run (green triangle) - if you're asked to install HAXM, do it
+- **You may need to enable Intel Virtualization from BIOS**
+- Wait for boot to complete
 - Open **cmd**
 - cd to BuildForGood/HobbiesApp
 - `react-native run-android`
