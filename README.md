@@ -32,7 +32,7 @@ First of all, **clone** the repository.
 ## Running the app
 - Open **Android Studio** 
 - **Tools >> AVD Manager**
-- Under **Actions** click Run (green triangle)
+- Under **Actions** click Run (green triangle) - if you're asked to install HAXM, do it
 - Open **cmd**
 - cd to BuildForGood/HobbiesApp
 - `react-native run-android`
