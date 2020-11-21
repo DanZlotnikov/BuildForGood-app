@@ -1,9 +1,15 @@
 import React from 'react'
-import { Image } from 'react-native'
+import { Image, ScrollView } from 'react-native'
 import styled from 'styled-components'
 import consts from '../consts'
+import BottomMenu from '../components/BottomMenu'
 
-const HobbiesPicker = () => {
+const HobbiesPicker = ({navigation}) => {
+    var hobbies = ['bicycle', 'chess', 'biking', 'boxing']
+    const sendHobby = (hobby) => {
+        navigation.navigate('Room')
+        console.log(hobby)
+    }
     return (
         <Container>
             <HeaderContainer>
@@ -28,7 +34,10 @@ const HobbiesPicker = () => {
             </HeaderText>
             <HobbyBoxesContainer>
                 <HobbyBoxRow>
-                    <HobbyBox style={{backgroundColor: consts.BOX_YELLOW}}>
+                    <HobbyBox 
+                        style={{backgroundColor: consts.BOX_YELLOW}} 
+                        onPress={() => {sendHobby(hobbies[0])}}
+                    >
                         <Image 
                             style={{
                                     height: consts.BOX_IMAGE_SIZE + 10,
@@ -38,7 +47,10 @@ const HobbiesPicker = () => {
                             source={require('../assets/images/bicycle.png')} 
                         />
                     </HobbyBox>
-                    <HobbyBox style={{backgroundColor: consts.BOX_PEACH}}>
+                    <HobbyBox 
+                        style={{backgroundColor: consts.BOX_PEACH}}
+                        onPress={() => {sendHobby(hobbies[1])}}
+                    >
                         <Image 
                             style={{
                                     height: consts.BOX_IMAGE_SIZE,
@@ -50,7 +62,10 @@ const HobbiesPicker = () => {
                     </HobbyBox>
                 </HobbyBoxRow>
                 <HobbyBoxRow>
-                    <HobbyBox style={{backgroundColor: consts.BOX_DARK_GREY}}>
+                    <HobbyBox 
+                        style={{backgroundColor: consts.BOX_DARK_GREY}}
+                        onPress={() => {sendHobby(hobbies[2])}}
+                    >
                         <Image 
                             style={{
                                     height: consts.BOX_IMAGE_SIZE,
@@ -60,7 +75,10 @@ const HobbiesPicker = () => {
                             source={require('../assets/images/racing-helmet.png')} 
                         />
                     </HobbyBox>
-                    <HobbyBox style={{backgroundColor: consts.BOX_PINK}}>
+                    <HobbyBox 
+                        style={{backgroundColor: consts.BOX_PINK}}
+                        onPress={() => {sendHobby(hobbies[3])}}
+                    >
                         <Image 
                             style={{
                                     height: consts.BOX_IMAGE_SIZE,
@@ -71,13 +89,13 @@ const HobbiesPicker = () => {
                         />
                     </HobbyBox>
                 </HobbyBoxRow>
-                <LetsGoButton>
+                {/* <LetsGoButton>
                     <LetsGoButtonText>
                         LET'S GO!!!
                     </LetsGoButtonText>
-                </LetsGoButton>
+                </LetsGoButton> */}
             </HobbyBoxesContainer>
-
+            <BottomMenu navigation={navigation}/>
         </Container>
     )
 }
@@ -88,6 +106,8 @@ const Container = styled.View`
     padding: 10px;
     padding-top: 20px;
     align-items: center;
+    height: 100%;
+    top: 0;
 `
 
 const HeaderContainer = styled.View`
@@ -117,6 +137,7 @@ const HeaderText = styled.Text`
 `
 
 const HobbyBoxesContainer = styled.View`
+    margin-top: 20px;
     height: 60%;
 `
 
