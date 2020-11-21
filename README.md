@@ -22,7 +22,7 @@ First of all, **clone** the repository.
 - Create an environment variable with the Java SDK path: 
 **Windows → Search → System → Advanced System Settings → Environment variables → New**
 `
-JAVA_HOME: C:\path\to\JavaSDK
+JDK_HOME: C:\path\to\JavaSDK (find the path by searching "jdk" on your machine)
 `
 - (command line) Install React Native Globally:
     `npm install -g react-native-cli`
