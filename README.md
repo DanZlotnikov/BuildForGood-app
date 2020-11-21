@@ -6,7 +6,7 @@ First of all, **clone** the repository.
 ## Installing the Emulator
 - Download and install [Android Studio]
 - Open Android Studio
-- Go to **Tools** >> **AVD Manager** >> **Create Virtual Device**
+- Go to **Tools** >> **AVD Manager** >> **Create Virtual Device** (If it's not there, search it in the toolbars)
 - In **Category** choose **Phone** and pick **Pixel 2**, then Click **Next**
 - Under **Release Name** find **R** and click **Download**
 - Click **Next**, give your device a name and **Finish**
