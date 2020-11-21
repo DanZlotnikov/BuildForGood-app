@@ -21,9 +21,8 @@ First of all, **clone** the repository.
 - Download and install [Node]
 - Create an environment variable with the Java SDK path: 
 **Windows → Search → System → Advanced System Settings → Environment variables → New**
-`
-JDK_HOME: C:\path\to\JavaSDK (find the path by searching "jdk" on your machine)
-`
+
+   `JDK_HOME: C:\path\to\JavaSDK` (find the path by searching "jdk" on your machine)
 - (command line) Install React Native Globally:
     `npm install -g react-native-cli`
 - cd to BuildForGood/HobbiesApp
@@ -37,6 +36,7 @@ JDK_HOME: C:\path\to\JavaSDK (find the path by searching "jdk" on your machine)
 - Open **cmd**
 - cd to BuildForGood/HobbiesApp
 - `react-native run-android`
+
 **The app will install for a minute and automatically open**
 
 ### Issues
