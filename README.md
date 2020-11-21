@@ -23,6 +23,8 @@ First of all, **clone** the repository.
 **Windows → Search → System → Advanced System Settings → Environment variables → New**
 
    `JDK_HOME: <C:path_to_JDK>` (Windows default is C:\Program Files\Java\jdk)
+   `JAVA_HOME: <C:path_to_JDK>` (Windows default is C:\Program Files\Java\jdk)
+- Edit "Path" variable - add <C:path_to_JDK>
 - (command line) Install React Native Globally:
     `npm install -g react-native-cli`
 - cd to BuildForGood/HobbiesApp
@@ -42,7 +44,7 @@ First of all, **clone** the repository.
 **The app will install for a minute and automatically open**
 
 ### Issues
-For any questions or techniacl support, please contact me at danzlotnikov@gmail.com
+For any questions or technical support, please contact me at danzlotnikov@gmail.com
 
 
 
