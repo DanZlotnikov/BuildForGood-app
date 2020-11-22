@@ -14,7 +14,7 @@ First of all, **clone** the repository.
 - open **BuildForGod-app/HobbiesApp/android** folder
 - create a file named **local.properties**
 - Write into the file:
- `sdk.dir=<SDK_Location>`, **IMPORTANT - DOUBLE BACKSLASH IN PATH!** and replace **SDK_Location** with the location of your intsalled Android SDK (on Windows 10, defaults to **C:\\\Users\\\ <Username>\\\AppData\\\Local\\\Android\\\Sdk**)
+ `sdk.dir=<SDK_Location>`, **IMPORTANT - DOUBLE BACKSLASH IN PATH!** and replace **SDK_Location** with the location of your intsalled Android SDK (on Windows 10, defaults to **C:\\\Users\\\Username\\\AppData\\\Local\\\Android\\\Sdk**)
 
 ## Installing dependencies
 - Download and install [JDK] (7 up to 11, **not higher**)
