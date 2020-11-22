@@ -24,7 +24,7 @@ First of all, **clone** the repository.
 
    `JDK_HOME: <C:path_to_JDK>` (Windows default is C:\Program Files\Java\jdk)
    `JAVA_HOME: <C:path_to_JDK>` (Windows default is C:\Program Files\Java\jdk)
-- Edit "Path" variable - add <C:path_to_JDK>
+- Edit "Path" variable - add <C:path_to_JDK>, add <path_to_android_sdk>, add <path_to_android_sdk\platform-tools>
 - (command line) Install React Native Globally:
     `npm install -g react-native-cli`
 - cd to BuildForGood/HobbiesApp
