@@ -17,7 +17,7 @@ First of all, **clone** the repository.
  `sdk.dir=<SDK_Location>`, **IMPORTANT - DOUBLE BACKSLASH IN PATH!** and replace **SDK_Location** with the location of your intsalled Android SDK (on Windows 10, defaults to **C:\\\Users\\\<Username>\\\AppData\\\Local\\\Android\\\Sdk**)
 
 ## Installing dependencies
-- Download and install [JDK] (7 or higher)
+- Download and install [JDK] (7 up to 11, **not higher**)
 - Download and install [Node]
 - Create an environment variable with the Java SDK path: 
 **Windows → Search → System → Advanced System Settings → Environment variables → New**
